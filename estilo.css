@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* Desarrollado por Javi Gonzalez */
+/* El 02/01/2019 */
+body {
+    background: lightgray;
+    font-family: sans-serif;
+}
+  
+h2 {
+    clear: both;
+    margin-bottom: 0.5em;
+    padding-top: 1em;
+}
+  
+ul {
+    list-style-type: none;
+}
+  
+ul.lista0 {
+    list-style-type: disc;
+}
+  
+ul.lista1 li {
+    color: #5E0272; 
+    background-color: #5ACE77;
+    text-align: center;
+    float:left;
+    width: 10em;
+    margin-right: 1em;
+    border: 5px dashed #954A95;
+    font-weight: bold;
+    padding: 0.5em 0em;   
+}
+  
+ul.lista2 {
+    text-align: center;
+}
+  
+ul.lista2 li {
+    background-color: white;
+    border: white 2px solid;
+    border-color: white black black white;
+    display: inline;
+    padding: 0.25em 0.5em;
+    margin: 0em 0.5em;   
+}
+  
+ul.lista2 li:hover {
+    background-color: lightgray;
+    border: white 2px solid;
+    border-color: black white white black;   
+}
+ 
+ul.lista3 {
+    text-align: center;
+    width: 11em;
+    padding: 0.5em; 
+    border: black 1px solid;     
+}
+  
+ul.lista3 li {
+    text-align: center;
+    background-color: white;
+    padding: 0.5em;
+    margin: 0.5em 0 0.5em 0.5em;
+    width: 9em;
+    border: black 1px solid;   
+}
+  
+ul.lista4 {
+    text-align: center;
+}
+  
+ul.lista4 li {
+    color: #3366CC;
+    font-weight: bold;
+    background-color: white;
+    display: inline-block;
+    width: 10em;
+    margin: 0;
+    padding: 0.5em 0;   
+}
+  
+ul.lista4 li.par {
+    background-color: #3366CC;
+    color: white;
+}
+   
